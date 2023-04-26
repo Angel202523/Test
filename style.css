@@ -1,0 +1,194 @@
+/* Reset default margin and padding values for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color for the body */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-left a {
+  font-size: 8px;
+  font-family: 'Azo Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.84px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.header-center img {
+  width: 71px;
+  height: 100px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right a {
+  font-size: 8px;
+  font-family: 'Azo Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.84px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-right: 20px;
+}
+
+.header-right img {
+  height: 30px;
+}
+
+/* Style the slider */
+.slider {
+  background: url('img/DeshleeCouch_Lifestyle8.png') no-repeat center/cover;
+  height: 670px;
+}
+
+.sliderText {
+  font-size: 76px;
+  font-family: 'Bely Display', serif;
+  font-weight: normal;
+  letter-spacing: -1.9px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 246px;
+  left: 935px;
+}
+
+.image-container h2 {
+  font-size: 76px;
+  font-family: 'Bely Display', serif;
+  font-weight: normal;
+  letter-spacing: -1.9px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 246px;
+  left: 935px;
+}
+
+.center h3{
+  font-size: 22px;
+  font-family: 'Azo Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.88px;
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.center-img {
+  background: url('img/Group 1125.png') no-repeat center/cover;
+  height: 137px;
+  margin-top: 30px;
+}
+.button{
+  background color:green ; 
+  padding: 1.6rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 5px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.section p {
+  margin-bottom: 10px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.second-fold {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.image-section {
+  background-image: url("path/to/image.jpg");
+  background-size: cover;
+  width: 50%;
+}
+
+.content-section {
+  background-color: #4caf50;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #4caf50;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #000;
+}
